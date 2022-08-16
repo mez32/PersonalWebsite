@@ -1,4 +1,4 @@
-import { Anchor, Container, createStyles, List, Popover, ThemeIcon, Tooltip } from '@mantine/core'
+import { Anchor, Container, createStyles, List, ThemeIcon, Tooltip } from '@mantine/core'
 import { IconBrandGithub, IconBrandLinkedin, IconFileDownload, IconMail } from '@tabler/icons'
 
 const useStyles = createStyles((theme) => ({

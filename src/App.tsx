@@ -1,4 +1,4 @@
-import { Card, Container, createStyles, Image } from '@mantine/core'
+import { Card, createStyles, Image } from '@mantine/core'
 import BigCard from './components/BigCard'
 
 const useStyles = createStyles((theme) => ({

@@ -6,6 +6,6 @@ Hello, welcome to the repo for my site. Since it was created using Vite instead 
 
 `npm run preview`	Serves the production build from the dist folder.
 
-The site will be available on `localhost:7777` in either mode.
+The site will be available on `localhost:7777` in development and on `localhost:4173` in preview.
 
 Thanks for the vist!

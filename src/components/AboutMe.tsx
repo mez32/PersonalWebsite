@@ -35,7 +35,7 @@ const AboutMe = () => {
 			<Space h='sm' />
 			<Text align='left' inherit>
 				&emsp; This site was built entirely by me using Vite, React, Redux Toolkit, and Mantine.{' '}
-				<Tooltip label='See this repo on Github'>
+				<Tooltip label='github.com/mez32/PersonalWebsite'>
 					<Anchor
 						span
 						href='https://github.com/mez32/PersonalWebsite'
@@ -43,10 +43,10 @@ const AboutMe = () => {
 						variant='text'
 						className={classes.linkOverride}
 					>
-						Here
+						Here is the Github repo
 					</Anchor>
 				</Tooltip>{' '}
-				is the Github repo for it so you can take a look how it works under the hood.
+				for it so you can take a look how it works under the hood.
 			</Text>
 		</Container>
 	)

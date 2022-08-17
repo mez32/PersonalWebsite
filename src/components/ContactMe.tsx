@@ -25,7 +25,7 @@ const ContactMe = () => {
 						</ThemeIcon>
 					}
 				>
-					<Tooltip label='Add me on LinkedIn'>
+					<Tooltip label='linkedin.com/in/alex-mesmer-40a93b198/'>
 						<Anchor
 							href='https://www.linkedin.com/in/alex-mesmer-40a93b198/'
 							target='_blank'
@@ -44,7 +44,7 @@ const ContactMe = () => {
 						</ThemeIcon>
 					}
 				>
-					<Tooltip label='View my Github'>
+					<Tooltip label='github.com/mez32'>
 						<Anchor
 							href='https://github.com/mez32'
 							target='_blank'
@@ -63,7 +63,7 @@ const ContactMe = () => {
 						</ThemeIcon>
 					}
 				>
-					<Tooltip label='Send me an email with one click'>
+					<Tooltip label='Send me an email with one click: amesmer32@gmail.com'>
 						<Anchor
 							href='mailto:amesmer32@gmail.com'
 							underline={false}

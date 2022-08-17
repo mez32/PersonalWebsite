@@ -4,7 +4,7 @@ Hello, welcome to the repo for my site. Since it was created using Vite instead 
 
 `npm run build`	Builds the app for production into the dist folder.
 
-`npm run serve`	Serves the production build from the dist folder.
+`npm run preview`	Serves the production build from the dist folder.
 
 The site will be available on `localhost:7777` in either mode.
 

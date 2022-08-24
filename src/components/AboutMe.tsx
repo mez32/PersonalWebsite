@@ -3,6 +3,7 @@ import React from 'react'
 
 const useStyles = createStyles((theme) => ({
 	linkOverride: {
+		fontWeight: 600,
 		'&:hover': {
 			color: 'white',
 		},
@@ -35,9 +36,11 @@ const AboutMe: React.FC = () => {
 			</Text>{' '}
 			<Space h='sm' />
 			<Text align='left' inherit>
-				&emsp; This site was built entirely by me using Vite, React, Redux Toolkit, and Mantine.{' '}
+				&emsp; This site was built entirely by me using Vite, React, Redux Toolkit, and Mantine and
+				is being hosted on Vercel.{' '}
 				<Tooltip label='github.com/mez32/PersonalWebsite'>
 					<Anchor
+						italic
 						span
 						href='https://github.com/mez32/PersonalWebsite'
 						target='_blank'
@@ -47,7 +50,7 @@ const AboutMe: React.FC = () => {
 						Here is the Github repo
 					</Anchor>
 				</Tooltip>{' '}
-				for it so you can take a look how it works under the hood.
+				for it so you can take a look at how it works under the hood.
 			</Text>
 		</Container>
 	)

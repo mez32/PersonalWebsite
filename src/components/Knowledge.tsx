@@ -16,7 +16,7 @@ const Knowledge: React.FC = () => {
 				&emsp; Here are the languanges I currently know :
 			</Text>
 			<Space h='sm' />
-			<List size='md' className={classes.bodyText}>
+			<List size='md' withPadding className={classes.bodyText}>
 				<List.Item>JavaScript</List.Item>
 				<List.Item>TypeScript</List.Item>
 			</List>
@@ -29,7 +29,7 @@ const Knowledge: React.FC = () => {
 				I have also picked up a couple frameworks and libraries along the way :
 			</Text>
 			<Space h='sm' />
-			<List size='md' className={classes.bodyText}>
+			<List size='md' withPadding className={classes.bodyText}>
 				<List.Item>Node</List.Item>
 				<List.Item>Express</List.Item>
 				<List.Item>Sequelize</List.Item>

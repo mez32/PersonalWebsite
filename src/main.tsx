@@ -17,6 +17,7 @@ const GlobalStyles = () => {
 					backgroundColor: '#000000',
 					fontFamily: 'Bitter, serif',
 					color: 'white',
+					overscrollBehavior: 'contain',
 				},
 			})}
 		/>

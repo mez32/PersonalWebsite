@@ -46,7 +46,12 @@ const BigCard: React.FC = () => {
 	}, [page])
 
 	return (
-		<Card p='xl' className={classes.card} shadow='md' radius='lg'>
+		<Card
+			p={window.innerWidth < 600 ? 'sm' : 'xl'}
+			className={classes.card}
+			shadow='md'
+			radius='lg'
+		>
 			<CardTabs />
 			{tabValue === Pages.aboutMe && <AboutMe />}
 			{tabValue === Pages.knowledge && <Knowledge />}

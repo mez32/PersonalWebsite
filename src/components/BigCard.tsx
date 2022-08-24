@@ -1,5 +1,5 @@
 import { Card, createStyles } from '@mantine/core'
-import { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { useAppSelector } from '../store/store'
 import { Pages } from '../types'
 import AboutMe from './AboutMe'
@@ -15,6 +15,13 @@ const useStyles = createStyles((theme) => ({
 			right: '12.5%',
 			left: '12.5%',
 		},
+		'@media (max-width: 600px)': {
+			width: '97%',
+			right: '1.5%',
+			left: '1.5%',
+			margin: '15px 0 0 0',
+			fontSize: '17px',
+		},
 		backgroundColor: '#151515',
 		right: '22.5%',
 		left: '22.5%',
@@ -28,7 +35,7 @@ const useStyles = createStyles((theme) => ({
 	},
 }))
 
-const BigCard = () => {
+const BigCard: React.FC = () => {
 	const { classes } = useStyles()
 	const page: Pages = useAppSelector((state) => state.navSlice.page)
 

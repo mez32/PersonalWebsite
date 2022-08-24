@@ -1,4 +1,5 @@
 import { Container, List, createStyles, Text, Space } from '@mantine/core'
+import React from 'react'
 
 const useStyles = createStyles((theme) => ({
 	bodyText: {
@@ -6,7 +7,7 @@ const useStyles = createStyles((theme) => ({
 	},
 }))
 
-const Knowledge = () => {
+const Knowledge: React.FC = () => {
 	const { classes } = useStyles()
 	return (
 		<Container>
@@ -15,7 +16,7 @@ const Knowledge = () => {
 				&emsp; Here are the languanges I currently know :
 			</Text>
 			<Space h='sm' />
-			<List size='xl' className={classes.bodyText}>
+			<List size='md' className={classes.bodyText}>
 				<List.Item>JavaScript</List.Item>
 				<List.Item>TypeScript</List.Item>
 			</List>
@@ -28,7 +29,7 @@ const Knowledge = () => {
 				I have also picked up a couple frameworks and libraries along the way :
 			</Text>
 			<Space h='sm' />
-			<List size='xl' className={classes.bodyText}>
+			<List size='md' className={classes.bodyText}>
 				<List.Item>Node</List.Item>
 				<List.Item>Express</List.Item>
 				<List.Item>Sequelize</List.Item>
@@ -41,7 +42,7 @@ const Knowledge = () => {
 				<List.Item>React Boostrap</List.Item>
 				<List.Item>Ionic</List.Item>
 				<List.Item>Material UI</List.Item>
-				<List.Item>Mantine (what this site is themed with)</List.Item>
+				<List.Item>Mantine (used for this site)</List.Item>
 				<List.Item>Git</List.Item>
 			</List>
 			<Space h='sm' />

@@ -1,5 +1,6 @@
 import { Anchor, Container, createStyles, List, ThemeIcon, Tooltip } from '@mantine/core'
 import { IconBrandGithub, IconBrandLinkedin, IconFileDownload, IconMail } from '@tabler/icons'
+import React from 'react'
 
 const useStyles = createStyles((theme) => ({
 	bodyText: {
@@ -11,7 +12,7 @@ const useStyles = createStyles((theme) => ({
 		},
 	},
 }))
-const ContactMe = () => {
+const ContactMe: React.FC = () => {
 	const { classes } = useStyles()
 
 	return (

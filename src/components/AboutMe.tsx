@@ -1,4 +1,5 @@
 import { Anchor, Blockquote, Container, createStyles, Space, Text, Tooltip } from '@mantine/core'
+import React from 'react'
 
 const useStyles = createStyles((theme) => ({
 	linkOverride: {
@@ -8,7 +9,7 @@ const useStyles = createStyles((theme) => ({
 	},
 }))
 
-const AboutMe = () => {
+const AboutMe: React.FC = () => {
 	const { classes } = useStyles()
 	return (
 		<Container>

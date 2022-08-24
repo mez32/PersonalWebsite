@@ -1,4 +1,5 @@
 import { Card, createStyles, Image } from '@mantine/core'
+import React from 'react'
 import BigCard from './components/BigCard'
 
 const useStyles = createStyles((theme) => ({
@@ -19,6 +20,13 @@ const useStyles = createStyles((theme) => ({
 			right: '12.5%',
 			left: '12.5%',
 		},
+		'@media (max-width: 600px)': {
+			width: '97%',
+			right: '1.5%',
+			left: '1.5%',
+			margin: '0',
+			fontSize: '20px',
+		},
 		backgroundColor: '#151515',
 		right: '22.5%',
 		left: '22.5%',
@@ -36,7 +44,7 @@ const useStyles = createStyles((theme) => ({
 	},
 }))
 
-const App = () => {
+const App: React.FC = () => {
 	const { classes } = useStyles()
 	return (
 		<div className={classes.mainDiv}>

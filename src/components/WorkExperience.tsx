@@ -1,4 +1,5 @@
 import { Container, createStyles, Text } from '@mantine/core'
+import React from 'react'
 
 const useStyles = createStyles((theme) => ({
 	bodyText: {
@@ -6,14 +7,14 @@ const useStyles = createStyles((theme) => ({
 	},
 }))
 
-const WorkExperience = () => {
+const WorkExperience: React.FC = () => {
 	const { classes } = useStyles()
 	return (
 		<Container>
 			<h2>Work Experience</h2>
 			<div className={classes.bodyText}>
 				<h3>
-					<Text weight={400} size={24}>
+					<Text weight={400} size={window.innerWidth < 600 ? 20 : 24}>
 						- Software Engineer | Cosmic Software Solutions | March 2022 to Current
 					</Text>
 				</h3>
@@ -23,7 +24,7 @@ const WorkExperience = () => {
 					Testing Library to write a front end testing suite for an application.
 				</Text>
 				<h3>
-					<Text weight={400} size={24}>
+					<Text weight={400} size={window.innerWidth < 600 ? 20 : 24}>
 						- Disease Investigator | LFCHD | Septembter 2021 to April 2022
 					</Text>
 				</h3>
@@ -34,7 +35,7 @@ const WorkExperience = () => {
 					response to the SARS-Cov-2 pandemic.
 				</Text>
 				<h3>
-					<Text weight={400} size={24}>
+					<Text weight={400} size={window.innerWidth < 600 ? 20 : 24}>
 						- Retail Sales Consultant | AT&T | June 2015 to September 2021
 					</Text>
 				</h3>

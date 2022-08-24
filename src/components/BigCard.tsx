@@ -1,4 +1,4 @@
-import { Card, createStyles } from '@mantine/core'
+import { Card, createStyles, Space } from '@mantine/core'
 import React, { useEffect, useState } from 'react'
 import { useAppSelector } from '../store/store'
 import { Pages } from '../types'
@@ -57,6 +57,7 @@ const BigCard: React.FC = () => {
 			{tabValue === Pages.knowledge && <Knowledge />}
 			{tabValue === Pages.workExperience && <WorkExperience />}
 			{tabValue === Pages.contactMe && <ContactMe />}
+			<Space h='lg' />
 		</Card>
 	)
 }

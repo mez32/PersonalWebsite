@@ -44,6 +44,7 @@ const Knowledge: React.FC = () => {
 				<List.Item>Material UI</List.Item>
 				<List.Item>Mantine (used for this site)</List.Item>
 				<List.Item>Git</List.Item>
+				<List.Item>NestJS (in progress)</List.Item>
 			</List>
 			<Space h='sm' />
 			<Text align='left' inherit>

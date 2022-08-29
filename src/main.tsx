@@ -32,6 +32,13 @@ root.render(
 			<MantineProvider
 				theme={{
 					colorScheme: 'dark',
+					shadows: {
+						xs: '1px 1px 1px rgba(0, 0, 0, 0.3)',
+						sm: '1px 1px 4px rgba(0, 0, 0, 0.4)',
+						md: '2px 2px 2px 2px rgba(0, 0, 0, 0.5)',
+						lg: '3px 3px 4px 5px rgba(0, 0, 0, 0.4)',
+						xl: '3px 3px 4px 15px rgba(0, 0, 0, 0.4)',
+					},
 				}}
 			>
 				<GlobalStyles />

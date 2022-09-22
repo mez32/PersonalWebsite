@@ -18,7 +18,7 @@ const ContactMe: React.FC = () => {
 	return (
 		<Container size={175}>
 			<h2>Contact Me</h2>
-			<List spacing='md' size='xl' withPadding className={classes.bodyText}>
+			<List spacing='xl' size='xl' withPadding center className={classes.bodyText}>
 				<List.Item
 					icon={
 						<ThemeIcon variant='light' color='gray'>

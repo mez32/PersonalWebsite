@@ -21,18 +21,21 @@ const AboutMe: React.FC = () => {
 			<Space h='sm' />
 			<Text align='left' inherit>
 				&emsp; Hi there, my name is Alex Mesmer and I currently live here in Lexington, KY and work
-				in full stack web development as a Software Engineer at a small start up. At the beginning
-				of the pandemic I set out to teach myself JavaScript and related frameworks as a way to grow
-				myself, personally and professionally, for the future and beyond since I have always been
-				intrigued in building things. So I decided to take it on in the digital realm.
+				in full stack web development as a Software Engineer at a local start up. At the onset of
+				the pandemic I began to teach myself JavaScript and related frameworks as a way to grow
+				myself, personally and professionally, for the future and beyond. I have always been
+				intrigued in building things and knowing how they work under the hood so I decided to take
+				it on in the digital realm.
 			</Text>{' '}
 			<Space h='sm' />
 			<Text align='left' inherit>
-				&emsp; Both my parents have been in the tech field for decades and it felt appropriate to
-				follow in their footsteps but to do it on my own terms and set my own course for success. In
-				only a year and a half I went from complete novice to applying to where I am now and have
-				demonstrated the knowledge that I have acquired and have picked up even more valuable
-				skills. Thanks for visiting my site and feel free to look around and learn more about me.{' '}
+				&emsp; I had a desire to break into this field of tech on my own terms and set my own course
+				for success. With the help of friends who are already professionals in this area, I was able
+				to become proficient in only a year and a half. From a complete novice to applying to where
+				I am now, I have already demonstrated a wealth of knowledge acquired from online courses and
+				have also picked up even more valuable skills working along side my awesome team. Thanks for
+				visiting my site, feel free to look around and learn more about me and reach out to me with
+				any kind of inquiries.{' '}
 			</Text>{' '}
 			<Space h='sm' />
 			<Text align='left' inherit>
@@ -50,7 +53,7 @@ const AboutMe: React.FC = () => {
 						Here is the Github repo
 					</Anchor>
 				</Tooltip>{' '}
-				for it so you can take a look at how it works under the hood.
+				for it so you can take a look at it yourself.
 			</Text>
 		</Container>
 	)

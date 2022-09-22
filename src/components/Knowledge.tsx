@@ -43,15 +43,14 @@ const Knowledge: React.FC = () => {
 				<List.Item>Ionic</List.Item>
 				<List.Item>Material UI</List.Item>
 				<List.Item>Mantine (used for this site)</List.Item>
+				<List.Item>CSS (modules, CSS in JS, SASS)</List.Item>
 				<List.Item>Git</List.Item>
 				<List.Item>NestJS (in progress)</List.Item>
 			</List>
 			<Space h='sm' />
 			<Text align='left' inherit>
 				&emsp; All knowlegde was acquired from Udemy.com from a multitude of courses. Also have
-				experience with Docker, SQL, and AWS services, as I was at one point very far into almost
-				getting a Solutions Architect certification until I decided that writing actual code was
-				what I was more interested in over time.
+				experience with Docker, Kubernetes, SQL, and AWS services.
 			</Text>
 		</Container>
 	)

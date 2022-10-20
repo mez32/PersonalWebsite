@@ -17,8 +17,8 @@ const AboutMe: React.FC = () => {
 	const { classes } = useStyles()
 	return (
 		<Container>
+			<h2>A Bit About Me</h2>
 			<div className={classes.wrapper}>
-				<h2>A Bit About Me</h2>
 				<Blockquote cite='- Paul Cookson'>
 					Great web design without functionality is like a sports car with no engine.
 				</Blockquote>

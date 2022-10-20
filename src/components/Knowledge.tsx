@@ -14,8 +14,8 @@ const Knowledge: React.FC = () => {
 	const { classes } = useStyles()
 	return (
 		<Container>
+			<h2>Knowledge</h2>
 			<div className={classes.wrapper}>
-				<h2>Knowledge</h2>
 				<Text inherit>These are the languages I currently know :</Text>
 				<Space h='sm' />
 				<List size='md' withPadding className={classes.bodyText}>

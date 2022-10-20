@@ -26,9 +26,9 @@ const ContactMe: React.FC = () => {
 						</ThemeIcon>
 					}
 				>
-					<Tooltip label='linkedin.com/in/alex-mesmer-40a93b198/'>
+					<Tooltip label='linkedin.com/in/mez32'>
 						<Anchor
-							href='https://www.linkedin.com/in/alex-mesmer-40a93b198/'
+							href='https://www.linkedin.com/in/mez32'
 							target='_blank'
 							underline={false}
 							variant='text'
@@ -82,7 +82,7 @@ const ContactMe: React.FC = () => {
 						</ThemeIcon>
 					}
 				>
-					<Tooltip label='Download a copy of my resume'>
+					<Tooltip label='Download a copy of my dark themed resume'>
 						<Anchor
 							href='files/alexMesmerResumeDarkTheme.pdf'
 							underline={false}
@@ -101,7 +101,7 @@ const ContactMe: React.FC = () => {
 						</ThemeIcon>
 					}
 				>
-					<Tooltip label='Download a copy of my resume'>
+					<Tooltip label='Download a copy of my light themed resume'>
 						<Anchor
 							href='files/alexMesmerResumeLightTheme.pdf'
 							underline={false}

@@ -16,8 +16,12 @@ const GlobalStyles = () => {
 					backgroundRepeat: 'no-repeat',
 					backgroundColor: '#000000',
 					fontFamily: 'Bitter, serif',
-					color: 'white',
+					color: '#C1C2C5',
 					overscrollBehavior: 'contain',
+					height: '90rem',
+					'@media (max-width: 37.5rem)': {
+						height: '100%',
+					},
 				},
 			})}
 		/>

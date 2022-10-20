@@ -6,7 +6,7 @@ import { Pages } from '../types'
 
 const useStyles = createStyles((theme) => ({
 	tabs: {
-		marginBottom: '15px',
+		marginBottom: '0.938rem',
 	},
 }))
 

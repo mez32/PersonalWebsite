@@ -16,7 +16,7 @@ const ContactMe: React.FC = () => {
 	const { classes } = useStyles()
 
 	return (
-		<Container size={175}>
+		<Container size={220}>
 			<h2>Contact Me</h2>
 			<List spacing='xl' size='xl' withPadding center className={classes.bodyText}>
 				<List.Item
@@ -84,13 +84,32 @@ const ContactMe: React.FC = () => {
 				>
 					<Tooltip label='Download a copy of my resume'>
 						<Anchor
-							href='files/alexMesmerResume.pdf'
+							href='files/alexMesmerResumeDarkTheme.pdf'
 							underline={false}
 							variant='text'
 							className={classes.linkOverride}
 							download
 						>
-							My Resume
+							Resume (Dark)
+						</Anchor>
+					</Tooltip>
+				</List.Item>
+				<List.Item
+					icon={
+						<ThemeIcon variant='light' color='gray'>
+							<IconFileDownload />
+						</ThemeIcon>
+					}
+				>
+					<Tooltip label='Download a copy of my resume'>
+						<Anchor
+							href='files/alexMesmerResumeLightTheme.pdf'
+							underline={false}
+							variant='text'
+							className={classes.linkOverride}
+							download
+						>
+							Resume (Light)
 						</Anchor>
 					</Tooltip>
 				</List.Item>

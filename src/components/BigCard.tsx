@@ -10,25 +10,27 @@ import WorkExperience from './WorkExperience'
 
 const useStyles = createStyles((theme) => ({
 	card: {
-		'@media (max-width: 1800px)': {
+		'@media (max-width: 112.5rem)': {
 			width: '75%',
 			right: '12.5%',
 			left: '12.5%',
 		},
-		'@media (max-width: 600px)': {
+		'@media (max-width: 37.5rem)': {
 			width: '97%',
 			right: '1.5%',
 			left: '1.5%',
 			margin: '15px 0 0 0',
-			fontSize: '17px',
+			fontSize: '1.063rem',
+			lineHeight: '1.5rem',
 		},
 		backgroundColor: '#151515',
 		right: '22.5%',
 		left: '22.5%',
 		width: '55%',
-		fontSize: '20px',
-		margin: '15px',
-		marginBottom: '85px',
+		fontSize: '1.25rem',
+		margin: '1rem',
+		marginBottom: '20rem',
+		// marginBottom: '5.313rem',
 		p: {
 			textAlign: 'left',
 		},

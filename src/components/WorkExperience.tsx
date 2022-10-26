@@ -38,7 +38,7 @@ const WorkExperience: React.FC = () => {
 				</List>
 				<h3>
 					<Text weight={500} size={window.innerWidth < 600 ? 20 : 24}>
-						Disease Investigator | LFCHD | Septembter 2021 to April 2022
+						Disease Investigator | LFCHD | September 2021 to April 2022
 					</Text>
 				</h3>
 				<Text className={classes.bodyText} inherit>
@@ -49,7 +49,7 @@ const WorkExperience: React.FC = () => {
 				</Text>
 				<List size='md' withPadding className={classes.wrapper}>
 					<List.Item>HIPAA Certified by the State of Kentucky</List.Item>
-					<List.Item>NEDSS Maintance cerified by the CDC</List.Item>
+					<List.Item>NEDSS Maintenance certified by the CDC</List.Item>
 				</List>
 				<h3>
 					<Text weight={500} size={window.innerWidth < 600 ? 20 : 24}>
@@ -65,7 +65,7 @@ const WorkExperience: React.FC = () => {
 					<List.Item>
 						Switched over an entire city&apos;s Emergency Management Department to FirstNet
 					</List.Item>
-					<List.Item>Achieved Business Expert and FirstNet Expert in mutiple years</List.Item>
+					<List.Item>Achieved Business Expert and FirstNet Expert in multiple years</List.Item>
 				</List>
 			</div>
 		</Container>

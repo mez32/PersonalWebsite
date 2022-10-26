@@ -25,7 +25,7 @@ const Knowledge: React.FC = () => {
 				<Space h='sm' />
 				<Text inherit>
 					TypeScript is what I use day in and day out at this point and is what I write in at my
-					current postition. I have also picked up a couple frameworks and libraries along the way :
+					current position. I have also picked up a couple frameworks and libraries along the way :
 				</Text>
 				<Space h='sm' />
 				<List size='md' withPadding className={classes.bodyText}>
@@ -49,7 +49,7 @@ const Knowledge: React.FC = () => {
 						A backend API for a simple car estimate tool using TypeScript and NestJS
 					</List.Item>
 					<List.Item>
-						A micro sercives app with Docker, Kubernetes, TypeScript, Express, NATS streaming
+						A micro services app with Docker, Kubernetes, TypeScript, Express, NATS streaming
 						server, and NextJS
 					</List.Item>
 					<List.Item>

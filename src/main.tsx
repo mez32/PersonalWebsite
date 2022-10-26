@@ -11,7 +11,7 @@ const GlobalStyles = () => {
 		<Global
 			styles={(theme) => ({
 				body: {
-					backgroundImage: "url('assets/background.jpg')",
+					backgroundImage: "url('assets/background.webp')",
 					backgroundPosition: 'center top',
 					backgroundRepeat: 'no-repeat',
 					backgroundColor: '#000000',

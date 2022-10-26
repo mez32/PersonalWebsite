@@ -57,7 +57,7 @@ const App: React.FC = () => {
 					radius={55}
 					width={170}
 					height='auto'
-					src='assets/alexImage.png'
+					src='assets/alexImage.webp'
 					alt='A picture of me'
 				/>
 			</div>

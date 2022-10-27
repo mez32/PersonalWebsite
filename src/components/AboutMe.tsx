@@ -6,9 +6,10 @@ const useStyles = createStyles((theme) => ({
 		textAlign: 'left',
 	},
 	linkOverride: {
-		fontWeight: 600,
+		fontWeight: 500,
 		'&:hover': {
 			color: 'white',
+			fontWeight: 600,
 		},
 	},
 }))
@@ -47,14 +48,13 @@ const AboutMe: React.FC = () => {
 					and Mantine UI and is being hosted on Vercel.{' '}
 					<Tooltip label='github.com/mez32/PersonalWebsite'>
 						<Anchor
-							italic
 							span
 							href='https://github.com/mez32/PersonalWebsite'
 							target='_blank'
 							variant='text'
 							className={classes.linkOverride}
 						>
-							Here is the Github repo for it.
+							Here the Github repo for it.
 						</Anchor>
 					</Tooltip>{' '}
 					My resumes were created with a simple React site only using HTML and CSS with a tool to

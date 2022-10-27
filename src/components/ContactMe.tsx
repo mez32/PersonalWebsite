@@ -15,6 +15,7 @@ const useStyles = createStyles((theme) => ({
 	linkOverride: {
 		'&:hover': {
 			color: 'white',
+			fontWeight: 500,
 		},
 	},
 }))
@@ -22,7 +23,7 @@ const ContactMe: React.FC = () => {
 	const { classes } = useStyles()
 
 	return (
-		<Container size={220}>
+		<Container size={290}>
 			<h2>Contact Me</h2>
 			<List spacing='xl' size='xl' withPadding center className={classes.bodyText}>
 				<List.Item
@@ -96,7 +97,7 @@ const ContactMe: React.FC = () => {
 							variant='text'
 							className={classes.linkOverride}
 						>
-							Resume (Dark)
+							View Dark Resume
 						</Anchor>
 					</Tooltip>
 				</List.Item>
@@ -115,7 +116,7 @@ const ContactMe: React.FC = () => {
 							className={classes.linkOverride}
 							download
 						>
-							Resume (Dark)
+							Download Dark Resume
 						</Anchor>
 					</Tooltip>
 				</List.Item>
@@ -134,7 +135,7 @@ const ContactMe: React.FC = () => {
 							variant='text'
 							className={classes.linkOverride}
 						>
-							Resume (Light)
+							View Light Resume
 						</Anchor>
 					</Tooltip>
 				</List.Item>
@@ -153,7 +154,7 @@ const ContactMe: React.FC = () => {
 							className={classes.linkOverride}
 							download
 						>
-							Resume (Light)
+							Download Light Resume
 						</Anchor>
 					</Tooltip>
 				</List.Item>

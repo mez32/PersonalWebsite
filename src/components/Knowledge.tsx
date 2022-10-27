@@ -58,8 +58,8 @@ const Knowledge: React.FC = () => {
 				</List>
 				<Space h='sm' />
 				<Text inherit>
-					All knowledge was acquired from Udemy.com from a multitude of courses, videos found online
-					and from my current position.
+					All knowledge was acquired from Udemy.com from a multitude of courses, from my current
+					position, and from personal side projects that may not be visible on my Github.
 				</Text>
 			</div>
 		</Container>

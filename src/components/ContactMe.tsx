@@ -91,6 +91,7 @@ const ContactMe: React.FC = () => {
 					<Tooltip label='View my dark themed resume'>
 						<Anchor
 							href='/resume-dark-theme'
+							target='_blank'
 							underline={false}
 							variant='text'
 							className={classes.linkOverride}
@@ -128,6 +129,7 @@ const ContactMe: React.FC = () => {
 					<Tooltip label='View my light themed resume'>
 						<Anchor
 							href='/resume-light-theme'
+							target='_blank'
 							underline={false}
 							variant='text'
 							className={classes.linkOverride}

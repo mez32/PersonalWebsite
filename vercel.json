@@ -1,0 +1,12 @@
+{
+	"rewrites": [
+		{
+			"source": "/resume-dark-theme",
+			"destination": "files/alexMesmerResumeDarkTheme.pdf"
+		},
+		{
+			"source": "/resume-light-theme",
+			"destination": "files/alexMesmerResumeLightTheme.pdf"
+		}
+	]
+}

@@ -1,5 +1,11 @@
 import { Anchor, Container, createStyles, List, ThemeIcon, Tooltip } from '@mantine/core'
-import { IconBrandGithub, IconBrandLinkedin, IconFileDownload, IconMail } from '@tabler/icons'
+import {
+	IconEye,
+	IconBrandGithub,
+	IconBrandLinkedin,
+	IconFileDownload,
+	IconMail,
+} from '@tabler/icons'
 import React from 'react'
 
 const useStyles = createStyles((theme) => ({
@@ -78,11 +84,29 @@ const ContactMe: React.FC = () => {
 				<List.Item
 					icon={
 						<ThemeIcon variant='light' color='gray'>
+							<IconEye />
+						</ThemeIcon>
+					}
+				>
+					<Tooltip label='View my dark themed resume'>
+						<Anchor
+							href='/resume-dark-theme'
+							underline={false}
+							variant='text'
+							className={classes.linkOverride}
+						>
+							Resume (Dark)
+						</Anchor>
+					</Tooltip>
+				</List.Item>
+				<List.Item
+					icon={
+						<ThemeIcon variant='light' color='gray'>
 							<IconFileDownload />
 						</ThemeIcon>
 					}
 				>
-					<Tooltip label='Download a copy of my dark themed resume'>
+					<Tooltip label='Download my dark themed resume'>
 						<Anchor
 							href='files/alexMesmerResumeDarkTheme.pdf'
 							underline={false}
@@ -97,11 +121,29 @@ const ContactMe: React.FC = () => {
 				<List.Item
 					icon={
 						<ThemeIcon variant='light' color='gray'>
+							<IconEye />
+						</ThemeIcon>
+					}
+				>
+					<Tooltip label='View my light themed resume'>
+						<Anchor
+							href='/resume-light-theme'
+							underline={false}
+							variant='text'
+							className={classes.linkOverride}
+						>
+							Resume (Light)
+						</Anchor>
+					</Tooltip>
+				</List.Item>
+				<List.Item
+					icon={
+						<ThemeIcon variant='light' color='gray'>
 							<IconFileDownload />
 						</ThemeIcon>
 					}
 				>
-					<Tooltip label='Download a copy of my light themed resume'>
+					<Tooltip label='Download my light themed resume'>
 						<Anchor
 							href='files/alexMesmerResumeLightTheme.pdf'
 							underline={false}

@@ -29,7 +29,7 @@ const Knowledge: React.FC = () => {
 				</Text>
 				<Space h='sm' />
 				<List size='md' withPadding className={classes.bodyText}>
-					<List.Item>Backend: Node, Express, NestJS, Prisma Sequelize, Mongoose</List.Item>
+					<List.Item>Backend: Node, Express, NestJS, Prisma, Sequelize, Mongoose</List.Item>
 					<List.Item>
 						Frontend: React, Redux Toolkit, Formik, Jest, React Testing Library, NextJS, CSS (SASS,
 						CSS in JS, Tailwind)

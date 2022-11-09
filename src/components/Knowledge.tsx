@@ -29,11 +29,14 @@ const Knowledge: React.FC = () => {
 				</Text>
 				<Space h='sm' />
 				<List size='md' withPadding className={classes.bodyText}>
-					<List.Item>Backend: Node, Express, Sequelize, Mongoose, NestJS</List.Item>
+					<List.Item>Backend: Node, Express, NestJS, Prisma Sequelize, Mongoose</List.Item>
 					<List.Item>
-						Frontend: React, Redux Toolkit, CSS, Formik, Jest, React Testing Library, NextJS
+						Frontend: React, Redux Toolkit, Formik, Jest, React Testing Library, NextJS, CSS (SASS,
+						CSS in JS, Tailwind)
 					</List.Item>
-					<List.Item>Other services: Docker, Kubernetes, SQL, Mongo, Firebase, and AWS</List.Item>
+					<List.Item>
+						Other services: Vite, Docker, Kubernetes, SQL, Mongo, Firebase, and AWS
+					</List.Item>
 				</List>
 				<Space h='sm' />
 				<Text inherit>Some of my projects and achievements are:</Text>
@@ -49,11 +52,14 @@ const Knowledge: React.FC = () => {
 						A backend API for a simple car estimate tool using TypeScript and NestJS
 					</List.Item>
 					<List.Item>
-						A micro services app with Docker, Kubernetes, TypeScript, Express, NATS streaming
-						server, and NextJS
+						A microservices app with Docker, Kubernetes, TypeScript, Express, NATS streaming server,
+						Mongo, and NextJS
 					</List.Item>
 					<List.Item>
 						Full stack social gathering social media site with image uploading in JavaScript
+					</List.Item>
+					<List.Item>
+						Currently building the backend for a personal project in NestJS, Prisma, and MySQL
 					</List.Item>
 				</List>
 				<Space h='sm' />

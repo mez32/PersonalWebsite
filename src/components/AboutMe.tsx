@@ -9,7 +9,6 @@ const useStyles = createStyles((theme) => ({
 		fontWeight: 500,
 		'&:hover': {
 			color: 'white',
-			fontWeight: 600,
 		},
 	},
 }))

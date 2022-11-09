@@ -15,7 +15,6 @@ const useStyles = createStyles((theme) => ({
 	linkOverride: {
 		'&:hover': {
 			color: 'white',
-			fontWeight: 500,
 		},
 	},
 }))

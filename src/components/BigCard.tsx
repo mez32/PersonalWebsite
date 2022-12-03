@@ -29,8 +29,6 @@ const useStyles = createStyles((theme) => ({
 		width: '55%',
 		fontSize: '1.25rem',
 		margin: '1rem',
-		marginBottom: '20rem',
-		// marginBottom: '5.313rem',
 		p: {
 			textAlign: 'left',
 		},

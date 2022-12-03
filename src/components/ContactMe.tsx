@@ -15,16 +15,20 @@ const useStyles = createStyles((theme) => ({
 	linkOverride: {
 		'&:hover': {
 			color: 'white',
+			textDecoration: 'underline',
 		},
+	},
+	container: {
+		marginBottom: '1rem',
 	},
 }))
 const ContactMe: React.FC = () => {
 	const { classes } = useStyles()
 
 	return (
-		<Container size={290}>
+		<Container className={classes.container} size={290}>
 			<h2>Contact Me</h2>
-			<List spacing='xl' size='xl' withPadding center className={classes.bodyText}>
+			<List spacing={35} size='xl' withPadding center className={classes.bodyText}>
 				<List.Item
 					icon={
 						<ThemeIcon variant='light' color='gray'>

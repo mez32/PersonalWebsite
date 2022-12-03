@@ -1,4 +1,4 @@
-import { Container, List, createStyles, Text, Space } from '@mantine/core'
+import { Container, List, createStyles, Text, Space, Anchor, Tooltip } from '@mantine/core'
 import React from 'react'
 
 const useStyles = createStyles((theme) => ({
@@ -8,17 +8,26 @@ const useStyles = createStyles((theme) => ({
 	bodyText: {
 		textAlign: 'left',
 	},
+	linkOverride: {
+		'&:hover': {
+			color: 'white',
+			textDecoration: 'underline',
+		},
+	},
+	container: {
+		marginBottom: '1rem',
+	},
 }))
 
 const Knowledge: React.FC = () => {
 	const { classes } = useStyles()
 	return (
-		<Container>
+		<Container className={classes.container}>
 			<h2>Knowledge</h2>
 			<div className={classes.wrapper}>
 				<Text inherit>These are the languages I currently know :</Text>
 				<Space h='sm' />
-				<List size='md' withPadding className={classes.bodyText}>
+				<List size='md' spacing='xs' withPadding className={classes.bodyText}>
 					<List.Item>JavaScript</List.Item>
 					<List.Item>TypeScript</List.Item>
 				</List>
@@ -28,10 +37,10 @@ const Knowledge: React.FC = () => {
 					current position. I have also picked up a couple frameworks and libraries along the way :
 				</Text>
 				<Space h='sm' />
-				<List size='md' withPadding className={classes.bodyText}>
+				<List size='md' spacing='xs' withPadding className={classes.bodyText}>
 					<List.Item>Backend: Node, Express, NestJS, Prisma, Sequelize, Mongoose</List.Item>
 					<List.Item>
-						Frontend: React, Redux Toolkit, Formik, Jest, React Testing Library, NextJS, CSS (SASS,
+						Frontend: React, NextJS, Redux Toolkit, Formik, Jest, React Testing Library, CSS (SASS,
 						CSS in JS, Tailwind)
 					</List.Item>
 					<List.Item>
@@ -41,25 +50,104 @@ const Knowledge: React.FC = () => {
 				<Space h='sm' />
 				<Text inherit>Some of my projects and achievements are:</Text>
 				<Space h='sm' />
-				<List size='md' withPadding className={classes.bodyText}>
+				<List size='md' spacing='xs' withPadding className={classes.bodyText}>
 					<List.Item>
-						Code Editor site using TypeScript, React, Redux Toolkit, and Material UI
+						Blog site made with NextJS, Tailwind CSS, Prisma, MySQL, and Docker from scratch.{'  '}
+						<Tooltip label='https://github.com/mez32/The-Blogg'>
+							<Anchor
+								href='https://github.com/mez32/The-Blogg'
+								variant='text'
+								target='_blank'
+								underline={false}
+								size='sm'
+								className={classes.linkOverride}
+							>
+								[view]
+							</Anchor>
+						</Tooltip>
 					</List.Item>
 					<List.Item>
-						Full stack Ecommerce platform using Express, Mongo, React, Redux, and PayPal
+						Code Editor site using TypeScript, React, Redux Toolkit, and Material UI.{'  '}
+						<Tooltip label='https://github.com/mez32/TS-Code-Editor'>
+							<Anchor
+								href='https://github.com/mez32/TS-Code-Editor'
+								variant='text'
+								target='_blank'
+								underline={false}
+								size='sm'
+								className={classes.linkOverride}
+							>
+								[view]
+							</Anchor>
+						</Tooltip>
 					</List.Item>
 					<List.Item>
-						A backend API for a simple car estimate tool using TypeScript and NestJS
+						Full stack Ecommerce platform using Express, Mongo, React, Redux, and PayPal.{' '}
+						<Tooltip label='https://github.com/mez32/the-shop'>
+							<Anchor
+								href='https://github.com/mez32/the-shop'
+								variant='text'
+								target='_blank'
+								underline={false}
+								size='sm'
+								className={classes.linkOverride}
+							>
+								[view]
+							</Anchor>
+						</Tooltip>
+					</List.Item>
+					<List.Item>
+						A backend API for a simple car estimate tool using TypeScript and NestJS.{' '}
+						<Tooltip label='https://github.com/mez32/Nest-Car-Value-Tool'>
+							<Anchor
+								href='https://github.com/mez32/Nest-Car-Value-Tool'
+								variant='text'
+								target='_blank'
+								underline={false}
+								size='sm'
+								className={classes.linkOverride}
+							>
+								[view]
+							</Anchor>
+						</Tooltip>
 					</List.Item>
 					<List.Item>
 						A microservices app with Docker, Kubernetes, TypeScript, Express, NATS streaming server,
-						Mongo, and NextJS
+						Mongo, and NextJS.{' '}
+						<Tooltip label='https://github.com/mez32/Microservices-Ticket-App'>
+							<Anchor
+								href='https://github.com/mez32/Microservices-Ticket-App'
+								variant='text'
+								target='_blank'
+								underline={false}
+								size='sm'
+								className={classes.linkOverride}
+							>
+								[view]
+							</Anchor>
+						</Tooltip>
 					</List.Item>
 					<List.Item>
-						Full stack social gathering social media site with image uploading in JavaScript
+						Full stack social gathering social media site with image uploading in JavaScript.{' '}
+						<Tooltip label='https://github.com/mez32/placer-frontend'>
+							<Anchor
+								href='https://github.com/mez32/placer-frontend'
+								variant='text'
+								target='_blank'
+								underline={false}
+								size='sm'
+								className={classes.linkOverride}
+							>
+								[view]
+							</Anchor>
+						</Tooltip>
 					</List.Item>
 					<List.Item>
-						Currently building the backend for a personal project in NestJS, Prisma, and MySQL
+						Site to make my resumes in HTML and CSS made with React and a tool to export them as
+						images.
+					</List.Item>
+					<List.Item>
+						Currently building the backend for a personal project in NestJS, Prisma, and MySQL.
 					</List.Item>
 				</List>
 				<Space h='sm' />

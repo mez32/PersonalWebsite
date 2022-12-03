@@ -7,13 +7,17 @@ const useStyles = createStyles((theme) => ({
 	},
 	bodyText: {
 		paddingBottom: '0.8rem',
+		lineHeight: '1.9rem',
+	},
+	container: {
+		marginBottom: '1rem',
 	},
 }))
 
 const WorkExperience: React.FC = () => {
 	const { classes } = useStyles()
 	return (
-		<Container>
+		<Container className={classes.container}>
 			<h2>Work Experience</h2>
 			<div className={classes.wrapper}>
 				<h3>
@@ -25,7 +29,7 @@ const WorkExperience: React.FC = () => {
 					Primarily working on the frontend of web applications as a contract engineer using
 					TypeScript, React, React Bootstrap, SASS, Formik, and Redux Toolkit.
 				</Text>
-				<List size='md' withPadding className={classes.wrapper}>
+				<List size='md' spacing='xs' withPadding className={classes.wrapper}>
 					<List.Item>
 						Used Jest and React Testing Library to cover 31 components with 163 tests, achieving
 						over 65% coverage.
@@ -47,7 +51,7 @@ const WorkExperience: React.FC = () => {
 					create and close investigations as well as process, clean, and verify data sent to the
 					state and national government.
 				</Text>
-				<List size='md' withPadding className={classes.wrapper}>
+				<List size='md' spacing='xs' withPadding className={classes.wrapper}>
 					<List.Item>HIPAA Certified by the State of Kentucky</List.Item>
 					<List.Item>NEDSS Maintenance certified by the CDC</List.Item>
 				</List>
@@ -60,7 +64,7 @@ const WorkExperience: React.FC = () => {
 					Sales person for company owned stores and authorized dealers. Achieved Business Expert and
 					FirstNet Expert (healthcare and first responder accounts) status during my tenure.
 				</Text>
-				<List size='md' withPadding className={classes.wrapper}>
+				<List size='md' spacing='xs' withPadding className={classes.wrapper}>
 					<List.Item>CPNI Certified yearly</List.Item>
 					<List.Item>
 						Switched over an entire city&apos;s Emergency Management Department to FirstNet

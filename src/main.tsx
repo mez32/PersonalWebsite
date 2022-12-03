@@ -18,7 +18,7 @@ const GlobalStyles = () => {
 					fontFamily: 'Bitter, serif',
 					color: '#C1C2C5',
 					overscrollBehavior: 'contain',
-					height: '90rem',
+					height: '95rem',
 					'@media (max-width: 37.5rem)': {
 						height: '100%',
 					},

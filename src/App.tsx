@@ -7,7 +7,6 @@ const useStyles = createStyles((theme) => ({
 		justifyContent: 'center',
 		alignItems: 'center',
 		textAlign: 'center',
-		marginBottom: '2.5rem',
 		lineHeight: '1.75rem',
 		letterSpacing: '0.03rem',
 	},

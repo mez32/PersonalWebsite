@@ -66,7 +66,7 @@ const AboutMe: React.FC = () => {
 					</Tooltip>{' '}
 					Both my resumes were created with a simple React site only using HTML and CSS with a tool
 					to export the page into a PDF and come in both a dark and light theme and can be found on
-					my About Me tab.
+					my Contact Me tab.
 				</Text>
 			</div>
 		</Container>

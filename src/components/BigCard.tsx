@@ -10,12 +10,10 @@ import WorkExperience from './WorkExperience'
 
 const useStyles = createStyles((theme) => ({
 	card: {
-		'@media (max-width: 112.5rem)': {
-			width: '60%',
-			right: '20%',
-			left: '20%',
-			marginBottom: '8rem',
-		},
+		width: '60%',
+		right: '20%',
+		left: '20%',
+		marginBottom: '8rem',
 		'@media (max-width: 37.5rem)': {
 			width: '97%',
 			right: '1.5%',
@@ -25,18 +23,14 @@ const useStyles = createStyles((theme) => ({
 			marginBottom: '2rem',
 		},
 		backgroundColor: '#27272a',
-		right: '22.5%',
-		left: '22.5%',
-		width: '55%',
 		fontSize: '1.25rem',
 		p: {
 			textAlign: 'left',
 		},
 	},
 	ExtCardContact: {
-		'@media (max-width: 112.5rem)': {
-			marginBottom: '25rem',
-		},
+		marginBottom: '25rem',
+
 		'@media (max-width: 37.5rem)': {
 			marginBottom: '20rem',
 		},
@@ -48,6 +42,7 @@ const useStyles = createStyles((theme) => ({
 		'@media (max-width: 37.5rem)': {
 			marginBottom: '2rem',
 		},
+		marginBottom: '3rem',
 	},
 }))
 

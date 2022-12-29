@@ -98,9 +98,7 @@ const App: React.FC = () => {
 				<h3>Software Engineer</h3>
 				<p>Lexington, KY</p>
 			</Card>
-			<div>
-				<BigCard />
-			</div>
+			<BigCard />
 		</div>
 	)
 }

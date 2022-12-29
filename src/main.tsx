@@ -11,17 +11,11 @@ const GlobalStyles = () => {
 		<Global
 			styles={(theme) => ({
 				body: {
-					backgroundImage: "url('assets/background.webp')",
-					backgroundPosition: 'center top',
-					backgroundRepeat: 'no-repeat',
-					backgroundColor: '#000000',
-					fontFamily: 'Bitter, serif',
-					color: '#C1C2C5',
+					backgroundColor: '#18181b',
+					fontFamily: 'IBM Plex Sans, sans-serif',
+					color: '#f4f4f5',
 					overscrollBehavior: 'contain',
-					height: '95rem',
-					'@media (max-width: 37.5rem)': {
-						height: '100%',
-					},
+					height: '100%',
 				},
 			})}
 		/>

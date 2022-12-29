@@ -6,7 +6,8 @@ const useStyles = createStyles((theme) => ({
 		textAlign: 'left',
 	},
 	linkOverride: {
-		fontWeight: 500,
+		fontFamily: 'IBM Plex Sans, sans-serif',
+		fontWeight: 600,
 		'&:hover': {
 			color: 'white',
 			textDecoration: 'underline',
@@ -52,21 +53,20 @@ const AboutMe: React.FC = () => {
 				<Text inherit className={classes.textWrapper}>
 					&emsp; This site was built entirely by me using TypeScript, Vite, React, Redux Toolkit,
 					and Mantine UI and is being hosted on Vercel.{' '}
-					<Tooltip label='github.com/mez32/PersonalWebsite'>
+					<Tooltip position='top-start' label='github.com/mez32/PersonalWebsite'>
 						<Anchor
-							span
 							href='https://github.com/mez32/PersonalWebsite'
 							target='_blank'
 							variant='text'
 							className={classes.linkOverride}
 							italic
 						>
-							Here the Github repo for it.
+							Here
 						</Anchor>
 					</Tooltip>{' '}
-					Both my resumes were created with a simple React site only using HTML and CSS with a tool
-					to export the page into a PDF and come in both a dark and light theme and can be found on
-					my Contact Me tab.
+					is the Github repo for it. Both my resumes were created on a React site only using HTML
+					and CSS and a tool to export the page into a PDF and come in both a dark and light theme
+					and can be found on my Contact Me tab.
 				</Text>
 			</div>
 		</Container>

@@ -7,6 +7,9 @@ const useStyles = createStyles((theme) => ({
 	},
 	bodyText: {
 		textAlign: 'left',
+		listStylePosition: 'outside',
+		font: 'inherit',
+		fontSize: '1rem',
 	},
 	linkOverride: {
 		'&:hover': {
@@ -27,7 +30,7 @@ const Knowledge: React.FC = () => {
 			<div className={classes.wrapper}>
 				<Text inherit>These are the languages I currently know :</Text>
 				<Space h='sm' />
-				<List size='md' spacing='xs' withPadding className={classes.bodyText}>
+				<List size='md' withPadding className={classes.bodyText}>
 					<List.Item>JavaScript</List.Item>
 					<List.Item>TypeScript</List.Item>
 				</List>
@@ -37,11 +40,11 @@ const Knowledge: React.FC = () => {
 					current position. I have also picked up a couple frameworks and libraries along the way :
 				</Text>
 				<Space h='sm' />
-				<List size='md' spacing='xs' withPadding className={classes.bodyText}>
+				<List size='md' withPadding className={classes.bodyText}>
 					<List.Item>Backend: Node, Express, NestJS, Prisma, Sequelize, Mongoose</List.Item>
 					<List.Item>
-						Frontend: React, NextJS, Redux Toolkit, Formik, Jest, React Testing Library, CSS (SASS,
-						CSS in JS, Tailwind)
+						Frontend: React, NextJS, Redux Toolkit, Vite, Jest, React Testing Library, React
+						Bootstrap, Mantine UI, CSS (Tailwind, SASS, CSS in JS)
 					</List.Item>
 					<List.Item>
 						Other services: Vite, Docker, Kubernetes, SQL, Mongo, Firebase, and AWS
@@ -50,7 +53,7 @@ const Knowledge: React.FC = () => {
 				<Space h='sm' />
 				<Text inherit>Some of my projects and achievements are:</Text>
 				<Space h='sm' />
-				<List size='md' spacing='xs' withPadding className={classes.bodyText}>
+				<List size='md' withPadding className={classes.bodyText}>
 					<List.Item>
 						Blog site made with NextJS, Tailwind CSS, Prisma, MySQL, and Docker from scratch.{'  '}
 						<Tooltip label='https://github.com/mez32/The-Blogg'>

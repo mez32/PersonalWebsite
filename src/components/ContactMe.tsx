@@ -13,6 +13,8 @@ const useStyles = createStyles((theme) => ({
 		textAlign: 'left',
 	},
 	linkOverride: {
+		fontFamily: 'IBM Plex Sans, sans-serif',
+		textDecoration: 'none',
 		'&:hover': {
 			color: 'white',
 			textDecoration: 'underline',

@@ -11,26 +11,42 @@ import WorkExperience from './WorkExperience'
 const useStyles = createStyles((theme) => ({
 	card: {
 		'@media (max-width: 112.5rem)': {
-			width: '75%',
-			right: '12.5%',
-			left: '12.5%',
+			width: '60%',
+			right: '20%',
+			left: '20%',
+			marginBottom: '8rem',
 		},
 		'@media (max-width: 37.5rem)': {
 			width: '97%',
 			right: '1.5%',
 			left: '1.5%',
-			margin: '15px 0 0 0',
 			fontSize: '1.063rem',
 			lineHeight: '1.5rem',
+			marginBottom: '2rem',
 		},
-		backgroundColor: '#151515',
+		backgroundColor: '#27272a',
 		right: '22.5%',
 		left: '22.5%',
 		width: '55%',
 		fontSize: '1.25rem',
-		margin: '1rem',
 		p: {
 			textAlign: 'left',
+		},
+	},
+	ExtCardContact: {
+		'@media (max-width: 112.5rem)': {
+			marginBottom: '25rem',
+		},
+		'@media (max-width: 37.5rem)': {
+			marginBottom: '20rem',
+		},
+	},
+	ExtCardAbout: {
+		'@media (max-width: 112.5rem) and (min-height: 58.125rem)': {
+			marginBottom: '15rem',
+		},
+		'@media (max-width: 37.5rem)': {
+			marginBottom: '2rem',
 		},
 	},
 }))
@@ -48,7 +64,9 @@ const BigCard: React.FC = () => {
 	return (
 		<Card
 			p={window.innerWidth < 600 ? 'sm' : 'xl'}
-			className={classes.card}
+			className={`${classes.card} ${tabValue === Pages.contactMe && classes.ExtCardContact} ${
+				tabValue === Pages.aboutMe && classes.ExtCardAbout
+			}`}
 			shadow='md'
 			radius='lg'
 		>
@@ -57,7 +75,7 @@ const BigCard: React.FC = () => {
 			{tabValue === Pages.knowledge && <Knowledge />}
 			{tabValue === Pages.workExperience && <WorkExperience />}
 			{tabValue === Pages.contactMe && <ContactMe />}
-			<Space h='lg' />
+			<Space h='sm' />
 		</Card>
 	)
 }

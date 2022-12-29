@@ -22,6 +22,7 @@ const useStyles = createStyles((theme) => ({
 		borderRadius: '55px',
 	},
 	card: {
+		backgroundColor: '#27272a',
 		width: '60%',
 		right: '20%',
 		left: '20%',
@@ -57,7 +58,6 @@ const useStyles = createStyles((theme) => ({
 				paddingBottom: '0.5rem',
 			},
 		},
-		backgroundColor: '#27272a',
 	},
 	divider: {
 		left: '15%',

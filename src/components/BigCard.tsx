@@ -14,6 +14,11 @@ const useStyles = createStyles((theme) => ({
 		right: '20%',
 		left: '20%',
 		marginBottom: '8rem',
+		backgroundColor: '#27272a',
+		fontSize: '1.25rem',
+		p: {
+			textAlign: 'left',
+		},
 		'@media (max-width: 37.5rem)': {
 			width: '97%',
 			right: '1.5%',
@@ -21,11 +26,6 @@ const useStyles = createStyles((theme) => ({
 			fontSize: '1.063rem',
 			lineHeight: '1.5rem',
 			marginBottom: '2rem',
-		},
-		backgroundColor: '#27272a',
-		fontSize: '1.25rem',
-		p: {
-			textAlign: 'left',
 		},
 	},
 	ExtCardContact: {

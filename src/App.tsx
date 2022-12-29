@@ -22,23 +22,22 @@ const useStyles = createStyles((theme) => ({
 		borderRadius: '55px',
 	},
 	card: {
-		'@media (max-width: 112.5rem)': {
-			width: '60%',
-			right: '20%',
-			left: '20%',
-			fontSize: '1.625rem',
-			marginTop: '1rem',
-			marginBottom: '1rem',
-			h1: {
-				margin: '2rem',
-			},
-			h3: {
-				margin: '1.5rem',
-			},
-			p: {
-				margin: '0',
-			},
+		width: '60%',
+		right: '20%',
+		left: '20%',
+		fontSize: '1.625rem',
+		marginTop: '1rem',
+		marginBottom: '1rem',
+		h1: {
+			margin: '2rem',
 		},
+		h3: {
+			margin: '1.5rem',
+		},
+		p: {
+			margin: '0',
+		},
+
 		'@media (max-width: 37.5rem)': {
 			width: '97%',
 			right: '1.5%',
@@ -59,9 +58,6 @@ const useStyles = createStyles((theme) => ({
 			},
 		},
 		backgroundColor: '#27272a',
-		right: '22.5%',
-		left: '22.5%',
-		width: '55%',
 	},
 	divider: {
 		left: '15%',

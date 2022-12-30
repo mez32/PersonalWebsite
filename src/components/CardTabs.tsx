@@ -5,11 +5,18 @@ import { useAppDispatch, useAppSelector } from '../store/store'
 import { Pages } from '../types'
 
 const useStyles = createStyles((theme) => ({
+	wrapper: {
+		margin: '0 1rem',
+	},
 	tabs: {
-		marginBottom: '0.938rem',
+		marginBottom: '1rem',
+		'@media (max-width: 37.5rem)': {
+			marginBottom: '1.5rem',
+		},
 	},
 	tab: {
 		font: 'inherit',
+		color: 'inherit',
 		fontSize: '1rem',
 		padding: '0.4rem',
 	},
@@ -20,27 +27,29 @@ const CardTabs: React.FC = () => {
 	const dispatch = useAppDispatch()
 	const tabValue = useAppSelector((state) => state.navSlice.page)
 	return (
-		<Tabs
-			value={tabValue}
-			onTabChange={(value: Pages) => dispatch(NavActions.navAction(value))}
-			className={classes.tabs}
-			color='dark'
-		>
-			<Tabs.List grow>
-				<Tabs.Tab className={classes.tab} value={Pages.aboutMe}>
-					{window.innerWidth < 600 ? 'About' : 'About Me'}
-				</Tabs.Tab>
-				<Tabs.Tab className={classes.tab} value={Pages.knowledge}>
-					Knowledge
-				</Tabs.Tab>
-				<Tabs.Tab className={classes.tab} value={Pages.workExperience}>
-					{window.innerWidth < 600 ? 'Work' : 'Work Experience'}
-				</Tabs.Tab>
-				<Tabs.Tab className={classes.tab} value={Pages.contactMe}>
-					{window.innerWidth < 600 ? 'Contact' : 'Contact Me'}
-				</Tabs.Tab>
-			</Tabs.List>
-		</Tabs>
+		<div className={classes.wrapper}>
+			<Tabs
+				value={tabValue}
+				onTabChange={(value: Pages) => dispatch(NavActions.navAction(value))}
+				className={classes.tabs}
+				color='dark'
+			>
+				<Tabs.List grow>
+					<Tabs.Tab className={classes.tab} value={Pages.aboutMe}>
+						{window.innerWidth < 600 ? 'About' : 'About Me'}
+					</Tabs.Tab>
+					<Tabs.Tab className={classes.tab} value={Pages.knowledge}>
+						Knowledge
+					</Tabs.Tab>
+					<Tabs.Tab styles={{}} className={classes.tab} value={Pages.workExperience}>
+						{window.innerWidth < 600 ? 'Work' : 'Work Experience'}
+					</Tabs.Tab>
+					<Tabs.Tab className={classes.tab} value={Pages.contactMe}>
+						{window.innerWidth < 600 ? 'Contact' : 'Contact Me'}
+					</Tabs.Tab>
+				</Tabs.List>
+			</Tabs>
+		</div>
 	)
 }
 

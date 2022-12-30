@@ -13,7 +13,7 @@ const GlobalStyles = () => {
 				body: {
 					backgroundColor: '#18181b',
 					fontFamily: 'IBM Plex Sans, sans-serif',
-					color: '#f4f4f5',
+					color: '#d4d4d8',
 					overscrollBehavior: 'contain',
 					height: '100%',
 				},
@@ -28,8 +28,13 @@ root.render(
 	<React.StrictMode>
 		<Provider store={store}>
 			<MantineProvider
+				withGlobalStyles
 				theme={{
 					colorScheme: 'dark',
+					colors: {
+						icon: ['#d4d4d8'],
+					},
+					primaryColor: 'icon',
 					shadows: {
 						xs: '1px 1px 1px rgba(0, 0, 0, 0.3)',
 						sm: '1px 1px 4px rgba(0, 0, 0, 0.4)',

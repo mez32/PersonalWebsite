@@ -7,7 +7,6 @@ const useStyles = createStyles((theme) => ({
 		justifyContent: 'center',
 		alignItems: 'center',
 		textAlign: 'center',
-		lineHeight: '1.75rem',
 		letterSpacing: '0.03rem',
 	},
 	imageContainer: {
@@ -29,14 +28,37 @@ const useStyles = createStyles((theme) => ({
 		fontSize: '1.625rem',
 		marginTop: '1rem',
 		marginBottom: '1rem',
+		maxWidth: '65rem',
 		h1: {
-			margin: '2rem',
+			margin: 0,
+			padding: '1rem',
+			lineHeight: '100%',
 		},
 		h3: {
-			margin: '1.5rem',
+			margin: 0,
+			padding: '1rem',
+			lineHeight: '100%',
 		},
 		p: {
-			margin: '0',
+			margin: 0,
+			lineHeight: '100%',
+		},
+		'@media (min-width: 112.5rem)': {
+			fontSize: '2rem',
+			h1: {
+				margin: 0,
+				padding: '1rem',
+				lineHeight: '100%',
+			},
+			h3: {
+				margin: 0,
+				padding: '1rem',
+				lineHeight: '100%',
+			},
+			p: {
+				margin: 0,
+				lineHeight: '100%',
+			},
 		},
 
 		'@media (max-width: 37.5rem)': {
@@ -48,14 +70,19 @@ const useStyles = createStyles((theme) => ({
 			marginBottom: '0.7rem',
 			fontSize: '1.25rem',
 			h1: {
-				margin: '1rem',
+				margin: 0,
+				padding: '1rem',
+				lineHeight: '100%',
 			},
 			h3: {
-				margin: '0.3rem',
+				margin: 0,
+				padding: '1rem',
+				lineHeight: '100%',
 			},
 			p: {
-				margin: '0',
+				margin: 0,
 				paddingBottom: '0.5rem',
+				lineHeight: '100%',
 			},
 		},
 	},
@@ -64,8 +91,8 @@ const useStyles = createStyles((theme) => ({
 		right: '15%',
 		width: '70%',
 		height: '0.125rem',
-		backgroundColor: '#C1C2C5',
-		margin: '0.8rem auto',
+		backgroundColor: '#d4d4d8',
+		margin: '0 auto',
 	},
 }))
 

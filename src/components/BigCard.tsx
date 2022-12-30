@@ -13,12 +13,11 @@ const useStyles = createStyles((theme) => ({
 		width: '60%',
 		right: '20%',
 		left: '20%',
-		marginBottom: '8rem',
+		marginBottom: '9rem',
 		backgroundColor: '#27272a',
 		fontSize: '1.25rem',
-		p: {
-			textAlign: 'left',
-		},
+		color: 'inherit',
+		maxWidth: '65rem',
 		'@media (max-width: 37.5rem)': {
 			width: '97%',
 			right: '1.5%',
@@ -28,21 +27,32 @@ const useStyles = createStyles((theme) => ({
 			marginBottom: '2rem',
 		},
 	},
-	ExtCardContact: {
-		marginBottom: '25rem',
-
-		'@media (max-width: 37.5rem)': {
-			marginBottom: '20rem',
-		},
-	},
 	ExtCardAbout: {
-		'@media (max-width: 112.5rem) and (min-height: 58.125rem)': {
+		marginBottom: '8rem',
+		'@media (min-height: 58.125rem)': {
 			marginBottom: '15rem',
 		},
 		'@media (max-width: 37.5rem)': {
-			marginBottom: '2rem',
+			marginBottom: '1rem',
 		},
+	},
+	ExtCardKnowledge: {
 		marginBottom: '3rem',
+		'@media (min-height: 58.125rem)': {
+			marginBottom: '15rem',
+		},
+		'@media (max-width: 37.5rem)': {
+			marginBottom: '1rem',
+		},
+	},
+	ExtCardContact: {
+		marginBottom: '20rem',
+		'@media (min-height: 58.125rem)': {
+			marginBottom: '25rem',
+		},
+		'@media (max-width: 37.5rem)': {
+			marginBottom: '21rem',
+		},
 	},
 }))
 
@@ -61,7 +71,7 @@ const BigCard: React.FC = () => {
 			p={window.innerWidth < 600 ? 'sm' : 'xl'}
 			className={`${classes.card} ${tabValue === Pages.contactMe && classes.ExtCardContact} ${
 				tabValue === Pages.aboutMe && classes.ExtCardAbout
-			}`}
+			} ${tabValue === Pages.knowledge && classes.ExtCardKnowledge}`}
 			shadow='md'
 			radius='lg'
 		>

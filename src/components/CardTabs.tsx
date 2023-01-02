@@ -22,6 +22,7 @@ const useStyles = createStyles((theme) => ({
 		'&:hover': {
 			color: '#f4f4f5',
 			textDecoration: 'underline',
+			backgroundColor: 'inherit',
 		},
 		'&:active': {
 			color: '#f4f4f5',

@@ -36,6 +36,10 @@ const useStyles = createStyles((theme) => ({
 			color: '#f4f4f5',
 			textDecoration: 'underline',
 		},
+		'&:active': {
+			color: '#f4f4f5',
+			textDecoration: 'underline',
+		},
 		'@media (min-width: 112.5rem)': {
 			fontSize: '1.5rem',
 			lineHeight: '110%',

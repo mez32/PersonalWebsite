@@ -67,10 +67,12 @@ const Knowledge: React.FC = () => {
 					</Text>
 					<Space h='sm' />
 					<List size='md' withPadding className={classes.list}>
-						<List.Item>Backend: Node, Express, NestJS, Prisma, Sequelize, Mongoose</List.Item>
 						<List.Item>
-							Frontend: React, NextJS, Redux Toolkit, Vite, Jest, React Testing Library, React
-							Bootstrap, Mantine UI, CSS (Tailwind, SASS, CSS in JS)
+							Backend: Node, Express, NestJS, Prisma, Sequelize, Mongoose, Twilio
+						</List.Item>
+						<List.Item>
+							Frontend: React, NextJS, Redux Toolkit, Vite, Formik, Jest, React Testing Library,
+							React Bootstrap, Mantine UI, CSS (Tailwind, SASS, CSS in JS)
 						</List.Item>
 						<List.Item>
 							Other services: Vite, Docker, Kubernetes, SQL, Mongo, Firebase, and AWS
@@ -85,7 +87,7 @@ const Knowledge: React.FC = () => {
 						<List.Item>
 							Blog site made with NextJS, Tailwind CSS, Prisma, MySQL, and Docker from scratch.
 							{'  '}
-							<Tooltip label='https://github.com/mez32/The-Blogg'>
+							<Tooltip color='gray' label='https://github.com/mez32/The-Blogg'>
 								<Anchor
 									href='https://github.com/mez32/The-Blogg'
 									variant='text'
@@ -100,7 +102,7 @@ const Knowledge: React.FC = () => {
 						</List.Item>
 						<List.Item>
 							Code Editor site using TypeScript, React, Redux Toolkit, and Material UI.{'  '}
-							<Tooltip label='https://github.com/mez32/TS-Code-Editor'>
+							<Tooltip color='gray' label='https://github.com/mez32/TS-Code-Editor'>
 								<Anchor
 									href='https://github.com/mez32/TS-Code-Editor'
 									variant='text'
@@ -115,7 +117,7 @@ const Knowledge: React.FC = () => {
 						</List.Item>
 						<List.Item>
 							Full stack Ecommerce platform using Express, Mongo, React, Redux, and PayPal.{' '}
-							<Tooltip label='https://github.com/mez32/the-shop'>
+							<Tooltip color='gray' label='https://github.com/mez32/the-shop'>
 								<Anchor
 									href='https://github.com/mez32/the-shop'
 									variant='text'
@@ -130,7 +132,7 @@ const Knowledge: React.FC = () => {
 						</List.Item>
 						<List.Item>
 							A backend API for a simple car estimate tool using TypeScript and NestJS.{' '}
-							<Tooltip label='https://github.com/mez32/Nest-Car-Value-Tool'>
+							<Tooltip color='gray' label='https://github.com/mez32/Nest-Car-Value-Tool'>
 								<Anchor
 									href='https://github.com/mez32/Nest-Car-Value-Tool'
 									variant='text'
@@ -146,7 +148,7 @@ const Knowledge: React.FC = () => {
 						<List.Item>
 							A microservices app with Docker, Kubernetes, TypeScript, Express, NATS streaming
 							server, Mongo, and NextJS.{' '}
-							<Tooltip label='https://github.com/mez32/Microservices-Ticket-App'>
+							<Tooltip color='gray' label='https://github.com/mez32/Microservices-Ticket-App'>
 								<Anchor
 									href='https://github.com/mez32/Microservices-Ticket-App'
 									variant='text'
@@ -161,7 +163,7 @@ const Knowledge: React.FC = () => {
 						</List.Item>
 						<List.Item>
 							Full stack social gathering social media site with image uploading in JavaScript.{' '}
-							<Tooltip label='https://github.com/mez32/placer-frontend'>
+							<Tooltip color='gray' label='https://github.com/mez32/placer-frontend'>
 								<Anchor
 									href='https://github.com/mez32/placer-frontend'
 									variant='text'
@@ -179,7 +181,8 @@ const Knowledge: React.FC = () => {
 							images.
 						</List.Item>
 						<List.Item>
-							Currently building the backend for a personal project in NestJS, Prisma, and MySQL.
+							API and admin website for a personal project in NestJS, Tailwind, Docker, Twilio,
+							Prisma, and MySQL.
 						</List.Item>
 					</List>
 					<Space h='sm' />

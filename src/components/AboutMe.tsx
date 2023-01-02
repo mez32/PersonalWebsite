@@ -9,6 +9,10 @@ const useStyles = createStyles((theme) => ({
 			color: '#f4f4f5',
 			textDecoration: 'underline',
 		},
+		'&:active': {
+			color: '#f4f4f5',
+			textDecoration: 'underline',
+		},
 	},
 	title: {
 		margin: '0.5rem auto',

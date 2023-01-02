@@ -11,9 +11,8 @@ import WorkExperience from './WorkExperience'
 const useStyles = createStyles((theme) => ({
 	card: {
 		width: '60%',
-		right: '20%',
-		left: '20%',
-		marginBottom: '9rem',
+		// marginBottom: '9rem',
+		margin: '0 auto 9rem',
 		backgroundColor: '#27272a',
 		fontSize: '1.25rem',
 		color: 'inherit',

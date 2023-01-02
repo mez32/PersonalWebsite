@@ -23,11 +23,8 @@ const useStyles = createStyles((theme) => ({
 	card: {
 		backgroundColor: '#27272a',
 		width: '60%',
-		right: '20%',
-		left: '20%',
 		fontSize: '1.625rem',
-		marginTop: '1rem',
-		marginBottom: '1rem',
+		margin: '1rem auto',
 		maxWidth: '65rem',
 		h1: {
 			margin: 0,
@@ -87,9 +84,9 @@ const useStyles = createStyles((theme) => ({
 		},
 	},
 	divider: {
-		left: '15%',
-		right: '15%',
-		width: '70%',
+		left: '10%',
+		right: '10%',
+		width: '80%',
 		height: '0.125rem',
 		backgroundColor: '#d4d4d8',
 		margin: '0 auto',

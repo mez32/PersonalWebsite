@@ -6,7 +6,7 @@
 
 body {
 	overscroll-behavior: 'contain';
-	text-shadow: 1px 2px 2px black;
+	text-shadow: 2px 2px 2px #171717;
 	@apply bg-neutral-900 text-neutral-300 font-ibm h-full;
 }
 

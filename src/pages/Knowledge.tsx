@@ -44,6 +44,18 @@ const Knowledge: React.FC = () => {
 							Docker, Twilio, Prisma, and MySQL.
 						</li>
 						<li>
+							<ToolTip text='https://github.com/mez32/Calc-Site'>
+								<a
+									href='https://github.com/mez32/Calc-Site'
+									target='_blank'
+									className='hover:text-neutral-100'
+								>
+									Site to convert pixels to rem and vice versa along with a calculator made with
+									TypeScript and React and being hosted on Vercel.
+								</a>
+							</ToolTip>
+						</li>
+						<li>
 							<ToolTip text='https://github.com/mez32/The-Blogg'>
 								<a
 									href='https://github.com/mez32/The-Blogg'
@@ -94,8 +106,8 @@ const Knowledge: React.FC = () => {
 									target='_blank'
 									className='hover:text-neutral-100'
 								>
-									A microservices app with Docker, Kubernetes, TypeScript, Express, NATS streaming
-									server, Mongo, and NextJS.
+									A microservices ticket buying app with Docker, Kubernetes, TypeScript, Express,
+									NATS streaming server, Mongo, and NextJS.
 								</a>
 							</ToolTip>
 						</li>

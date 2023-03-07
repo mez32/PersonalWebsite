@@ -8,4 +8,6 @@ Hello, welcome to the repo for my site. Since it was created using Vite instead 
 
 The site will be available on `localhost:7777` in development and on `localhost:4173` in preview.
 
+The site can also be visited at [www.alexmesmer.dev](https://www.alexmesmer.dev)
+
 Thanks for the visit!

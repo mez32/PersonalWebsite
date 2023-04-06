@@ -7,12 +7,12 @@ import Divider from '../components/Divider'
 const Home: React.FC = () => {
 	return (
 		<>
-			<div className='relative min-h-screen justify-center items-center text-center'>
-				<div className='grid md:grid-cols-2 w-11/12 md:w-4/5 lg:w-3/5 lg:max-w-5xl xl:max-w-6xl mx-auto pb-12 md:pt-8 3xl:pt-16'>
+			<div className='h-full'>
+				<div className='absolute inset-0 my-4 md:my-auto mx-auto grid md:grid-cols-2 w-11/12 lg:w-10/12 lg:max-w-6xl 3xl:max-w-7xl h-fit'>
 					<GridCard>
 						<div className='justify-center flex p-4'>
 							<img
-								className='rounded-[60px] h-auto w-40 md:w-32 2xl:w-40 3xl:w-44 shadow-md'
+								className='rounded-[60px] h-auto w-40 md:w-32 lg:w-40 2xl:w-44 3xl:w-48 shadow-md'
 								src='assets/alexImage.webp'
 								alt='A picture of me'
 							/>
@@ -42,8 +42,8 @@ const Home: React.FC = () => {
 						<IconPhoneIncoming className='mr-2 align-middle' size={32} />
 						<h3>Contact Me</h3>
 					</GridCard>
+					<Footer />
 				</div>
-				<Footer />
 			</div>
 		</>
 	)

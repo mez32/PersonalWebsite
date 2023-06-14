@@ -19,7 +19,7 @@ const Home: React.FC = () => {
               <GridCard>
                 <div className="justify-center flex p-4">
                   <img
-                    className="rounded-[60px] h-auto w-40 md:w-32 lg:w-40 2xl:w-44 3xl:w-48 shadow-md"
+                    className="rounded-[60px] h-auto w-40 md:w-36 lg:w-40 2xl:w-44 3xl:w-52 shadow-md"
                     src="assets/alexImage.webp"
                     alt="A picture of me"
                   />
@@ -27,31 +27,33 @@ const Home: React.FC = () => {
               </GridCard>
               <GridCard>
                 <div className="justify-center items-center text-center p-4 md:p-5">
-                  <h2 className="pb-4 text-4xl xl:text-5xl 3xl:text-6xl">
+                  <h1 className="pb-4 text-5xl lg:text-6xl xl:text-7xl">
                     Alex Mesmer
-                  </h2>
+                  </h1>
                   <Divider />
-                  <h3 className="py-4 text-2xl lg:text-3xl 3xl:text-4xl">
+                  <h2 className="py-4 text-3xl lg:text-4xl xl:text-5xl">
                     Software Engineer
+                  </h2>
+                  <h3 className="pb-2 lg:pb-4 text-xl md:text-2xl xl:text-3xl">
+                    Lexington, KY
                   </h3>
-                  <h4 className="text-xl 3xl:text-2xl">Lexington, KY</h4>
                 </div>
               </GridCard>
               <GridCard routeId="about">
                 <IconUser className="mr-2 align-middle" size={34} />
-                <h3>About Me</h3>
+                <h3 className="text-4xl md:text-5xl">About Me</h3>
               </GridCard>
               <GridCard routeId="knowledge">
                 <IconCode className="mr-2 align-middle" size={38} />
-                <h3>Knowledge</h3>
+                <h3 className="text-4xl md:text-5xl">Knowledge</h3>
               </GridCard>
               <GridCard routeId="experience">
                 <IconBriefcase className="mr-2 align-middle" size={32} />
-                <h3>Experience</h3>
+                <h3 className="text-4xl md:text-5xl">Experience</h3>
               </GridCard>
               <GridCard routeId="contact">
                 <IconPhoneIncoming className="mr-2 align-middle" size={32} />
-                <h3>Contact Me</h3>
+                <h3 className="text-4xl md:text-5xl">Contact Me</h3>
               </GridCard>
             </div>
           </div>

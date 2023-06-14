@@ -14,11 +14,3 @@ body {
 	text-shadow: 2px 2px 2px #171717;
 	@apply bg-slate-900 text-stone-200 font-ibm h-full;
 }
-
-h1 {
-	@apply text-5xl md:text-6xl;
-}
-
-h3 {
-	@apply text-3xl md:text-4xl;
-}

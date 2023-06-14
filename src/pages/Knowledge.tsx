@@ -46,7 +46,7 @@ const Knowledge: React.FC = () => {
             to export them as images.
           </li>
           <li>
-            API and admin website for an in development app in TypeScritpt with
+            API and admin website for an in development app in TypeScript with
             NextJS, Tailwind, Docker, Twilio, Prisma, and MySQL.
           </li>
           <li>
@@ -93,7 +93,7 @@ const Knowledge: React.FC = () => {
                 target="_blank"
                 className="hover:text-neutral-100"
               >
-                Full stack Ecommerce platform using Express, Mongo, React,
+                Full stack e-commerce platform using Express, Mongo, React,
                 Redux, and PayPal.
               </a>
             </ToolTip>

@@ -16,7 +16,7 @@ const WorkExperience: React.FC = () => {
         </h4>
 
         <p className="ml-2 md:ml-4 text-md md:text-lg lg:text-xl mb-2">
-          Currently in the Pricing and Outsourcing team working with multiple
+          Currently on the Pricing and Outsourcing team working with multiple
           microservices written in Python that check if custom parts have the
           ability to be manufactured and handle automated pricing and lead times
           via AI models and formulas.

@@ -5,7 +5,7 @@ import MainCard from "../components/MainCard";
 const WorkExperience: React.FC = () => {
   return (
     <MainCard>
-      <h1 className="pb-4">Work Experience</h1>
+      <h1 className="pb-4 text-5xl lg:text-6xl xl:text-7xl">Work Experience</h1>
       <Divider />
       <div className="md:mx-4 text-left">
         <h2 className="mt-4 mb-1 md:mb-2 text-xl md:text-2xl lg:text-3xl">

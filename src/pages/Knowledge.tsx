@@ -6,7 +6,7 @@ import ToolTip from "../components/ToolTip";
 const Knowledge: React.FC = () => {
   return (
     <MainCard>
-      <h1 className="pb-4">Knowledge</h1>
+      <h1 className="pb-4 text-5xl lg:text-6xl xl:text-7xl">Knowledge</h1>
       <Divider />
       <div className="mt-4 md:mx-4">
         <p className="text-left text-lg md:text-xl lg:text-2xl mb-2">

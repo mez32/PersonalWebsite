@@ -6,7 +6,7 @@ import ToolTip from "../components/ToolTip";
 const AboutMe: React.FC = () => {
   return (
     <MainCard>
-      <h1 className="pb-4">About Me</h1>
+      <h1 className="pb-4 text-5xl lg:text-6xl xl:text-7xl">About Me</h1>
       <Divider />
       <blockquote className="md:text-md lg:text-lg my-6">
         "Every great developer you know got there by solving problems they were

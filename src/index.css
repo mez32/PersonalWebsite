@@ -12,5 +12,5 @@ body {
 	overscroll-behavior: 'contain';
 	height: 100%;
 	text-shadow: 2px 2px 2px #171717;
-	@apply bg-slate-900 text-stone-200 font-ibm h-full;
+	@apply bg-zinc-900 text-stone-200 font-ibm h-full;
 }

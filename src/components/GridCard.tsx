@@ -11,7 +11,7 @@ const GridCard: React.FC<Props> = ({ children, routeId }) => {
     return (
       <Link to={routeId}>
         <div className="w-full h-full mb-4">
-          <div className="bg-slate-700 flex justify-center items-center text-center md:mx-2 aspect-video rounded-xl shadow-md border-2 border-opacity-80 border-slate-800 transform transition duration-400 hover:scale-105 active:scale-95">
+          <div className="bg-zinc-800 flex justify-center items-center text-center md:mx-2 aspect-video rounded-xl shadow-md border-2 border-opacity-80 border-zinc-700 transform transition duration-400 hover:scale-105 active:scale-95">
             {children}
           </div>
         </div>
@@ -20,7 +20,7 @@ const GridCard: React.FC<Props> = ({ children, routeId }) => {
   }
   return (
     <div className="w-full h-full mb-4">
-      <div className="bg-slate-700 flex justify-center items-center text-center md:mx-2 aspect-video rounded-xl shadow-md border-2 border-opacity-80 border-slate-800">
+      <div className="bg-zinc-800 flex justify-center items-center text-center md:mx-2 aspect-video rounded-xl shadow-md border-2 border-opacity-80 border-zinc-700">
         {children}
       </div>
     </div>

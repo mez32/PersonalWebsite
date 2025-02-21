@@ -1,6 +1,6 @@
-import React from "react";
-import Divider from "../components/Divider";
-import MainCard from "../components/MainCard";
+import React from "react"
+import Divider from "../components/Divider"
+import MainCard from "../components/MainCard"
 
 const WorkExperience: React.FC = () => {
   return (
@@ -9,18 +9,20 @@ const WorkExperience: React.FC = () => {
       <Divider />
       <div className="md:mx-4 text-left">
         <h2 className="mt-4 mb-1 md:mb-2 text-xl md:text-2xl lg:text-3xl">
-          Software Engineer I | Xometry
+          Machine Learning Engineer I | Xometry
         </h2>
         <h4 className="ml-2 md:ml-4 mb-1 md:mb-2 text-lg md:text-xl lg:text-2xl">
           May 2023 - Current
         </h4>
         <p className="ml-2 md:ml-4 text-md md:text-lg lg:text-xl mb-2">
-          &emsp; Currently on the Cost Prediction and ModelOps team where I work
-          along side data scientists and other engineers to develop and train
-          Machine Learning models that predict costs for most of our offered
-          manufacturing processes as well as create and optimize formulas for
-          the others. Also, develop and maintain tools for our custom Machine
-          Learning pipelines that are our at the core of our ModelOps concept.
+          &emsp; Currently on the Machine Learning Platform Engineering Team
+          where we maintain our current ML infrastructure while actively
+          developing the next generation ML infrastructure to increase
+          development speed of our data scientists across all teams. My prior
+          team was Cost Prediction and ModelOps where I worked along side data
+          scientists to develop and train machine learning models that predict
+          costs for most of our offered manufacturing processes as well as
+          create and optimize formulas for the others.
         </p>
         <ul className="ml-7 md:ml-10 text-md md:text-lg lg:text-xl list-disc list-outside mb-2">
           <li>
@@ -29,16 +31,15 @@ const WorkExperience: React.FC = () => {
             increase data scientists' ease of use and overcome major differences
             betweeen the 2 services.
           </li>
-
           <li>
             Added the ability for a manufacturing certification to automatically
             be quoted that opened up a broader avenue of business from the
-            Aviation and Defense sectors. (This certification used to have to go
-            through a person to receive a quote.)
+            Aviation and Defense sectors.
           </li>
           <li>
-            Conformed all forms to have the same logic, validation and
-            appearance with Formik and SASS.
+            As lead engineer, optomized a cost formula to increase cost
+            prediction accuracy and have consistent positive margins for the
+            first time.
           </li>
         </ul>
         <h2 className="mt-4 mb-1 md:mb-2 text-xl md:text-2xl lg:text-3xl">
@@ -110,7 +111,7 @@ const WorkExperience: React.FC = () => {
         </ul>
       </div>
     </MainCard>
-  );
-};
+  )
+}
 
-export default WorkExperience;
+export default WorkExperience

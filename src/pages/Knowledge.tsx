@@ -1,7 +1,7 @@
-import React from "react";
-import Divider from "../components/Divider";
-import MainCard from "../components/MainCard";
-import ToolTip from "../components/ToolTip";
+import React from "react"
+import Divider from "../components/Divider"
+import MainCard from "../components/MainCard"
+import ToolTip from "../components/ToolTip"
 
 const Knowledge: React.FC = () => {
   return (
@@ -13,19 +13,18 @@ const Knowledge: React.FC = () => {
           These are the languages I currently know:
         </p>
         <ul className="text-left text-lg md:text-xl list-disc list-outside ml-8 mb-2">
-          <li>JavaScript</li>
-          <li>TypeScript</li>
           <li>Python</li>
           <li>Go</li>
+          <li>Bash</li>
+          <li>SQL</li>
+          <li>Terraform</li>
+          <li>JavaScript</li>
+          <li>TypeScript</li>
         </ul>
         <p className="text-left text-lg md:text-xl lg:text-2xl mb-4">
-          Python is what I use day in and day in my current position. My current
-          team runs a concept called ModelOps to increase the speed of our
-          Machine Learing development as a company so I work along side data
-          scientists to develop and maintain the tools they use and also work on
-          one of our core apis implementing new features either wiring up models
-          or working on optimizing formulas. I have also picked up and used
-          these frameworks and libraries:
+          Python and Terraform are what I use day in and day in my current
+          position with a little Go thrown in at times. I have also picked up
+          and used these frameworks and libraries:
         </p>
         <ul className="text-left text-lg md:text-xl list-disc list-outside ml-8 mb-2">
           <li>
@@ -37,9 +36,10 @@ const Knowledge: React.FC = () => {
             Library, React Bootstrap, Mantine UI, CSS (Tailwind, SASS, CSS in
             JS)
           </li>
+          <li>AWS: Sagemaker AI, Service Catalog, S3, Lambda </li>
           <li>
-            Other services: Vite, Docker, Kubernetes, SQL, Mongo, Firebase, AWS,
-            Snowflake and GitHub Actions
+            Other services: Vite, Docker, Kubernetes, Mongo, Firebase, Snowflake
+            and GitHub Actions
           </li>
         </ul>
         <p className="text-left text-lg md:text-xl lg:text-2xl mb-2">
@@ -133,7 +133,7 @@ const Knowledge: React.FC = () => {
         </p>
       </div>
     </MainCard>
-  );
-};
+  )
+}
 
-export default Knowledge;
+export default Knowledge

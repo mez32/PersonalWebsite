@@ -1,7 +1,7 @@
-import React from "react";
-import Divider from "../components/Divider";
-import MainCard from "../components/MainCard";
-import ToolTip from "../components/ToolTip";
+import React from "react"
+import Divider from "../components/Divider"
+import MainCard from "../components/MainCard"
+import ToolTip from "../components/ToolTip"
 
 const AboutMe: React.FC = () => {
   return (
@@ -16,7 +16,7 @@ const AboutMe: React.FC = () => {
       <div className="md:mx-4">
         <p className="text-left text-lg md:text-xl lg:text-2xl mb-4">
           &emsp; Hi there, my name is Alex Mesmer and I currently live here in
-          Lexington, KY and work as a backend Software Engineer at Xometry. At
+          Lexington, KY and work as a Machine Learning Engineer at Xometry. At
           the onset of the pandemic I began to teach myself JavaScript and
           related frameworks as a way to grow myself, personally and
           professionally, for the future and beyond. I have always been
@@ -56,7 +56,7 @@ const AboutMe: React.FC = () => {
         </p>
       </div>
     </MainCard>
-  );
-};
+  )
+}
 
-export default AboutMe;
+export default AboutMe
